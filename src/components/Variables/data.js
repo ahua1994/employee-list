@@ -1,4 +1,4 @@
-export default [
+const data = [
     {
         gender: "male",
         name: {
@@ -280,3 +280,4 @@ export default [
         nat: "IN",
     },
 ];
+export default data;

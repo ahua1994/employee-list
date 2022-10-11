@@ -1,0 +1,21 @@
+.Person {
+    display: flex;
+    align-self: flex-start; 
+    padding-left: 40px;
+    margin: 0px 10px 40px 10px;
+    height: 100px;
+    img {
+        width: 100px;
+        border-radius: 50%;
+    } 
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 10px;
+    }
+    .name {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+}

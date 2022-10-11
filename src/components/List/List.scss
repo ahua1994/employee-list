@@ -1,0 +1,32 @@
+@import "../Variables/Variables.scss";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.List {
+    display: flex;
+    background-color: $dark;
+    min-width: 500px;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    flex-direction: column;
+    color: $light; 
+    box-shadow: 3px 3px 2px $light;
+    .title {
+        margin: 40px 0 10px 0;
+        font-size: 1.5rem;
+    }
+    .count {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+}
+
