@@ -1,8 +1,7 @@
 import "./Person.scss";
-import data from "../Variables/data";
 
-function Person() {
-    return data.map((person) => {
+function Person(props) {
+    return props.data.map((person) => {
         const { id, picture, name, email, dob } = person;
         return (
             <div className="Person" key={id.value}>
